@@ -1283,8 +1283,7 @@ html {
     font-size: 18px
 }
 
-@
--webkit-keyframes layui-rl {
+@-webkit-keyframes layui-rl {
 
 from {
     -webkit-transform: translate3d(100%, 0, 0)
@@ -1295,8 +1294,7 @@ to {
 }
 
 }
-@
-keyframes layui-rl {
+@keyframes layui-rl {
 
 from {
     transform: translate3d(100%, 0, 0)
@@ -1312,11 +1310,10 @@ to {
     animation-name: layui-rl
 }
 
-@
--webkit-keyframes layui-lr {
+@-webkit-keyframes layui-lr {
 
 from {
-    -webkit-transform: translate3d(0 0, 0);
+    -webkit-transform: translate3d(0, 0, 0);
     opacity: 1
 }
 
@@ -1326,8 +1323,7 @@ to {
 }
 
 }
-@
-keyframes layui-lr {
+@keyframes layui-lr {
 
 from {
     transform: translate3d(0, 0, 0)

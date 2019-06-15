@@ -4282,8 +4282,7 @@ body .layui-util-face .layui-layer-content {
     -webkit-transition: all .3s
 }
 
-@
--webkit-keyframes layui-rotate {
+@-webkit-keyframes layui-rotate {
 
 from {
     -webkit-transform: rotate(0)
@@ -4294,8 +4293,7 @@ to {
 }
 
 }
-@
-keyframes layui-rotate {
+@keyframes layui-rotate {
 
 from {
     transform: rotate(0)
@@ -4315,8 +4313,7 @@ to {
     animation-timing-function: linear
 }
 
-@
--webkit-keyframes layui-up {
+@-webkit-keyframes layui-up {
 
 from {
     -webkit-transform: translate3d(0, 100%, 0);
@@ -4329,8 +4326,7 @@ to {
 }
 
 }
-@
-keyframes layui-up {
+@keyframes layui-up {
 
 from {
     transform: translate3d(0, 100%, 0);
@@ -4348,8 +4344,7 @@ to {
     animation-name: layui-up
 }
 
-@
--webkit-keyframes layui-upbit {
+@-webkit-keyframes layui-upbit {
 
 from {
     -webkit-transform: translate3d(0, 30px, 0);
@@ -4362,8 +4357,7 @@ to {
 }
 
 }
-@
-keyframes layui-upbit {
+@keyframes layui-upbit {
 
 from {
     transform: translate3d(0, 30px, 0);
@@ -4381,8 +4375,7 @@ to {
     animation-name: layui-upbit
 }
 
-@
--webkit-keyframes layui-scale {
+@-webkit-keyframes layui-scale {
 
 0
 %
@@ -4400,8 +4393,7 @@ to {
     -webkit-transform: scale(1)
 }
 }
-@
-keyframes layui-scale {
+@keyframes layui-scale {
 
 0
 %
@@ -4428,8 +4420,7 @@ keyframes layui-scale {
     animation-name: layui-scale
 }
 
-@
--webkit-keyframes layui-scale-spring {
+@-webkit-keyframes layui-scale-spring {
 
 0
 %
@@ -4455,8 +4446,7 @@ keyframes layui-scale {
     -webkit-transform: scale(1)
 }
 }
-@
-keyframes layui-scale-spring {
+@keyframes layui-scale-spring {
 
 0
 %
@@ -4487,8 +4477,7 @@ keyframes layui-scale-spring {
     animation-name: layui-scale-spring
 }
 
-@
--webkit-keyframes layui-fadein {
+@-webkit-keyframes layui-fadein {
 
 0
 %
@@ -4502,8 +4491,7 @@ keyframes layui-scale-spring {
     opacity: 1
 }
 }
-@
-keyframes layui-fadein {
+@keyframes layui-fadein {
 
 0
 %
@@ -4522,8 +4510,7 @@ keyframes layui-fadein {
     animation-name: layui-fadein
 }
 
-@
--webkit-keyframes layui-fadeout {
+@-webkit-keyframes layui-fadeout {
 
 0
 %
@@ -4537,8 +4524,7 @@ keyframes layui-fadein {
     opacity: 0
 }
 }
-@
-keyframes layui-fadeout {
+@keyframes layui-fadeout {
 
 0
 %
