@@ -1,15 +1,15 @@
 package com.phonemarket.mapper;
 
-import java.util.List;
-
+import com.phonemarket.entity.Provinces;
 import org.springframework.stereotype.Repository;
 
-import com.phonemarket.entity.Address;
-import com.phonemarket.entity.Provinces;
+import java.util.List;
 
 @Repository
 public interface ProvincesMapper {
-	List<Provinces> findAllProvince();
-	Provinces findProByProName(String name);
-	Provinces findProByProId(String id);
+    List<Provinces> findAllProvince();
+
+    Provinces findProByProName(String name);
+
+    Provinces findProByProId(String id);
 }

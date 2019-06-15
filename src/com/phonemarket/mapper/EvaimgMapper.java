@@ -1,14 +1,15 @@
 package com.phonemarket.mapper;
 
-import java.util.List;
-
+import com.phonemarket.entity.Evaimg;
 import org.springframework.stereotype.Repository;
 
-import com.phonemarket.entity.Evaimg;
+import java.util.List;
 
 @Repository
 public interface EvaimgMapper {
-	Integer addEvaimg(Evaimg evaimg);
-	Evaimg findEvaimgById(Integer id);
-	List<Evaimg> findEvaimgByEvaId(Integer evaId);
+    Integer addEvaimg(Evaimg evaimg);
+
+    Evaimg findEvaimgById(Integer id);
+
+    List<Evaimg> findEvaimgByEvaId(Integer evaId);
 }

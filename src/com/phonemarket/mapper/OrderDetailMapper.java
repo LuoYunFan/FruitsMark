@@ -1,15 +1,17 @@
 package com.phonemarket.mapper;
 
-import java.util.List;
-
+import com.phonemarket.entity.OrderDetail;
 import org.springframework.stereotype.Repository;
 
-import com.phonemarket.entity.OrderDetail;
+import java.util.List;
 
 @Repository
 public interface OrderDetailMapper {
-	Integer addOrderDetail(OrderDetail orderDetail);
-	OrderDetail findOrderDetailById(Integer detailId);
-	Integer updateOrderDetail(OrderDetail orderDetail);
-	List<OrderDetail> findOrderDetailByOrderId(String orderId);
+    Integer addOrderDetail(OrderDetail orderDetail);
+
+    OrderDetail findOrderDetailById(Integer detailId);
+
+    Integer updateOrderDetail(OrderDetail orderDetail);
+
+    List<OrderDetail> findOrderDetailByOrderId(String orderId);
 }

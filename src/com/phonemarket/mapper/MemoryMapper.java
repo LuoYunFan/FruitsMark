@@ -1,13 +1,13 @@
 package com.phonemarket.mapper;
 
-import java.util.List;
-
+import com.phonemarket.entity.Memory;
 import org.springframework.stereotype.Repository;
 
-import com.phonemarket.entity.Memory;
+import java.util.List;
 
 @Repository
 public interface MemoryMapper {
-	Memory findMemoryById(Integer id);
-	List<Memory> findAllMemory();
+    Memory findMemoryById(Integer id);
+
+    List<Memory> findAllMemory();
 }
